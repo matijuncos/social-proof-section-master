@@ -1,0 +1,138 @@
+body {
+  background-image: url("images/bg-pattern-top-desktop.svg"),
+    url("images/bg-pattern-bottom-desktop.svg");
+  background-color: hsl(0, 0%, 100%);
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+.newbody {
+  width: 1440 px;
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+
+  color: hsl(300, 43%, 22%);
+  margin: 0;
+}
+.total {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+.texto {
+  text-align: left;
+}
+
+.texto h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.texto p {
+  color: hsl(303, 10%, 53%);
+  font-size: 1em;
+}
+
+.rate {
+  display: block;
+  margin-top: 35px;
+  justify-items: right;
+}
+
+.rate p {
+  background-color: hsl(300, 24%, 96%);
+  width: 350px;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 8px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 0.8em;
+  float: right;
+}
+
+.rate1 {
+  margin-right: 90px;
+}
+.rate2 {
+  margin-right: 45px;
+}
+
+.cardcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 8px;
+  color: white;
+  padding: 30px;
+  margin-top: 15px;
+  height: 160px;
+  font-size: 0.8em;
+  text-align: left;
+  line-height: 1.8em;
+}
+
+.card.mid {
+  margin-top: 45px;
+}
+
+.card.right {
+  margin-top: 75px;
+}
+
+.cardcontainer {
+  padding-bottom: 150px;
+  padding-top: 50px;
+}
+
+.card.left img,
+.card.mid img,
+.card.right img {
+  border-radius: 50%;
+}
+
+.mini {
+  display: flex;
+  text-align: center;
+}
+.img img {
+  margin-right: 5px;
+  width: 50%;
+  padding-top: 10px;
+}
+
+.verified {
+  margin: 0;
+  text-align: left;
+  color: hsl(333, 80%, 67%);
+}
+.nombre {
+  margin: 0;
+  text-align: left;
+  font-weight: bold;
+}
+
+.costado {
+  padding-top: 10px;
+}
+/*Adaptacion a dispositivos moviles*/
+
+@media (max-width: 375px) {
+}
