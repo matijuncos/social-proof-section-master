@@ -42,7 +42,9 @@ body {
   color: hsl(303, 10%, 53%);
   font-size: 1em;
 }
-
+span {
+  padding-left: 30px;
+}
 .rate {
   display: block;
   margin-top: 35px;
