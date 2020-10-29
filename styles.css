@@ -50,7 +50,9 @@ span {
   margin-top: 35px;
   justify-items: right;
 }
-
+.rate img {
+  padding: 0 3px;
+}
 .rate p {
   background-color: hsl(300, 24%, 96%);
   width: 350px;
